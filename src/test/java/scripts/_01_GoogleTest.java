@@ -107,12 +107,5 @@ public class _01_GoogleTest {
         Assert.assertTrue(searchButton.isEnabled());
     }
 
-    /*
-    validateTitleAndURL
-    Go to https://www.apple.com/
-    Validate its title is apple
-    Validate its URL is https://www.apple.com/
-     */
-
 
 }
