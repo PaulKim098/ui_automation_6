@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utils.Waiter;
 
-public class FacebookTest extends Base{
+public class _05_FacebookTest extends Base{
 
         /*
         Go to https://www.facebook.com/
