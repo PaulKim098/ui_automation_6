@@ -1,6 +1,5 @@
 package projects;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -176,7 +175,7 @@ public class Project_01 extends Base {
         Assert.assertNull(messageInput.getAttribute("required"));
 
         Assert.assertEquals(messageLabel.getText(),"Message");
-        Assert.assertEquals(messageInput.getAttribute("placeholder"),"Type your message here…");
+        Assert.assertNull(messageInput.getAttribute("placeholder")); // Type your message here…
     }
 
     /**
