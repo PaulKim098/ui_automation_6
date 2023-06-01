@@ -2,13 +2,10 @@ package scripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utils.Driver;
 import utils.DropdownHandler;
-import utils.Waiter;
 
 import java.util.List;
 
@@ -73,36 +70,36 @@ public class _11_TGDropdownTest extends Base {
 
     }
 
-        /**
-         * Test Case: Validate Dropdowns Functionality on TechGlobal Training Page
-         * Go to https://techglobal-training.com/frontend/
-         * Click on the "Dropdowns" card
-         * Select the "MacBook Pro 13" option from the "Product" dropdown.
-         * Select the "Green" option from the "Color" dropdown.
-         * Open the "Shipping" dropdown and click on the "Delivery" option.
-         * Click on the "Submit" button.
-         * Validate result message displays "Your Green MacBook Pro 13 will be delivered to you."
-         */
+    /**
+     * Test Case: Validate Dropdowns Functionality on TechGlobal Training Page
+     * Go to https://techglobal-training.com/frontend/
+     * Click on the "Dropdowns" card
+     * Select the "MacBook Pro 13" option from the "Product" dropdown.
+     * Select the "Green" option from the "Color" dropdown.
+     * Open the "Shipping" dropdown and click on the "Delivery" option.
+     * Click on the "Submit" button.
+     * Validate result message displays "Your Green MacBook Pro 13 will be delivered to you."
+     */
 
-        @Test
-        public void validateDropdownFunctionalityTest(){
+    @Test
+    public void validateDropdownFunctionalityTest(){
 
-            WebElement productOption = driver.findElement(By.id("product_dropdown"));
-            DropdownHandler.selectByVisibleText(productOption, "MacBook Pro 13");
+        WebElement productOption = driver.findElement(By.id("product_dropdown"));
+        DropdownHandler.selectByVisibleText(productOption, "MacBook Pro 13");
 
-            WebElement colorOption = driver.findElement(By.id("color_dropdown"));
-            DropdownHandler.selectByIndex(colorOption, 2);
+        WebElement colorOption = driver.findElement(By.id("color_dropdown"));
+        DropdownHandler.selectByIndex(colorOption, 2);
 
-            WebElement shipmentOption = driver.findElement(By.id("shipment_dropdown"));
-            shipmentOption.click();
+        WebElement shipmentOption = driver.findElement(By.id("shipment_dropdown"));
+        shipmentOption.click();
 
-            List<WebElement> selectDelivery = driver.findElements(By.cssSelector("#shipment_dropdown span"));
-            selectDelivery.get(0).click();
+        List<WebElement> selectDelivery = driver.findElements(By.cssSelector("#shipment_dropdown span"));
+        selectDelivery.get(0).click();
 
-            driver.findElement(By.cssSelector("#submit")).click();
-            String resultText = driver.findElement(By.cssSelector("#result")).getText();
+        driver.findElement(By.cssSelector("#submit")).click();
+        String resultText = driver.findElement(By.cssSelector("#result")).getText();
 
-            Assert.assertEquals(resultText, "Your Green MacBook Pro 13 will be delivered to you.");
+        Assert.assertEquals(resultText, "Your Green MacBook Pro 13 will be delivered to you.");
 
-        }
+    }
 }
