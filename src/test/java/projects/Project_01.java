@@ -190,10 +190,11 @@ public class Project_01 extends Base {
 
     @Test
     public void validateConsentCheckbox(){
-        WebElement checkboxInput = driver.findElement(By.cssSelector("form div:nth-child(7) div input"));
-        WebElement checkboxLabel = driver.findElement(By.cssSelector("form div:nth-child(7) label"));
+        WebElement checkboxInput = driver.findElement(By.cssSelector("input[type='checkbox']"));
+        WebElement checkboxLabel = driver.findElement(By.cssSelector(".checkbox"));
 
-        Assert.assertEquals(checkboxLabel.getText(),"I give my consent to be contacted.");
+        Assert.assertTrue(checkboxLabel.isDisplayed());
+        Assert.assertEquals(checkboxLabel.getText()," I give my consent to be contacted.");
 
         Assert.assertEquals(checkboxInput.getAttribute("required"),"true");
         Assert.assertTrue(checkboxInput.isEnabled());
