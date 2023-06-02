@@ -4,11 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.TGBasePage;
+import pages.TGFrontendTestingHomePage;
 import utils.Driver;
 
 public class Base {
 
     TGBasePage techGlobalBasePage;
+    TGFrontendTestingHomePage techGlobalFrontendTestingHomePage;
     public static WebDriver driver; // declaration
 
     @BeforeMethod

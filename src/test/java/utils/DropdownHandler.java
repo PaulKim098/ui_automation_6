@@ -7,6 +7,7 @@ import java.util.List;
 
 public class DropdownHandler {
 
+    //Create a method that takes a dropdown, dropdown options, and optionText that you want to click
     public static void clickDropdownOption(WebElement dropdown, List<WebElement> dropdownOptions, String optionText){
         dropdown.click();
 
@@ -27,7 +28,7 @@ public class DropdownHandler {
         new Select(dropdown).selectByIndex(index);
     }
 
-    public static void selectByVisibleValue(WebElement dropdown, String text){
+    public static void selectByValue(WebElement dropdown, String text){
         new Select(dropdown).selectByValue(text);
     }
 }
