@@ -21,10 +21,12 @@ public class _13_IFrameTest extends Base {
 
     @Test(priority = 1, description = "TC123: Validate the IFrame Page content paragraph")
     public void validateTheParagraph(){
-        WebElement iframe = driver.findElement(By.id("form_frame"));
-        driver.switchTo().frame(iframe);
+//        WebElement iframe = driver.findElement(By.id("form_frame"));
+//        driver.switchTo().frame(iframe);
+//
+//        driver.switchTo().frame(0);
 
-        driver.switchTo().frame(0);
+        driver.switchTo().frame("form_frame");
 
         WebElement paragraph = driver.findElement(By.cssSelector("#name_form>p"));
         Assert.assertTrue(paragraph.isDisplayed());

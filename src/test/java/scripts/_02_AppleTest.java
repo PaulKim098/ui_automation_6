@@ -41,7 +41,7 @@ public class _02_AppleTest {
     @Test
     public void validateTitleAndURL() throws InterruptedException {
         Assert.assertEquals(driver.getTitle(), "Apple");
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.apple.com");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.apple.com/");
 
         driver.quit();
 

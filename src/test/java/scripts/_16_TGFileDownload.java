@@ -26,6 +26,5 @@ public class _16_TGFileDownload extends Base{
         WebElement downloadFile = driver.findElement(By.id("file_download"));
         downloadFile.click();
 
-
     }
 }

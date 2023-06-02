@@ -29,7 +29,6 @@ public class _15_TGFileUpload extends Base {
         WebElement fileUploadInput = driver.findElement(By.id("file_upload"));
         WebElement submitButton = driver.findElement(By.id("file_submit"));
 
-
         String filePath = "C:\\Users\\STP\\IdeaProjects\\ui_automation_6\\hello.txt";
 
         fileUploadInput.sendKeys(filePath);

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="26" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="328377" started-at="2023-06-01T19:23:59 CDT" finished-at="2023-06-01T19:29:27 CDT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="328377" started-at="2023-06-01T19:23:59 CDT" finished-at="2023-06-01T19:29:27 CDT">
+      <class name="scripts._03_5_TGLogoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._03_5_TGLogoTest@627551fb]" name="setUp" is-config="true" duration-ms="3518" started-at="2023-06-01T19:25:19 CDT" finished-at="2023-06-01T19:25:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateTechGlobalLogo()[pri:0, instance:scripts._03_5_TGLogoTest@627551fb]" name="validateTechGlobalLogo" duration-ms="35111" started-at="2023-06-01T19:25:22 CDT" finished-at="2023-06-01T19:25:57 CDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#logo"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c223a7adead4408ff35f35bfd8023d8
+*** Element info: {Using=id, value=logo}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#logo"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c223a7adead4408ff35f35bfd8023d8
+*** Element info: {Using=id, value=logo}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+at scripts._03_5_TGLogoTest.validateTechGlobalLogo(_03_5_TGLogoTest.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTechGlobalLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._03_5_TGLogoTest@627551fb]" name="tearDown" is-config="true" duration-ms="970" started-at="2023-06-01T19:25:57 CDT" finished-at="2023-06-01T19:25:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._03_5_TGLogoTest -->
+      <class name="scripts._05_FacebookTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="setUp" is-config="true" duration-ms="3138" started-at="2023-06-01T19:25:58 CDT" finished-at="2023-06-01T19:26:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="setPage" is-config="true" duration-ms="1837" started-at="2023-06-01T19:26:01 CDT" finished-at="2023-06-01T19:26:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateFacebookInvalidLoginAttempt()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="validateFacebookInvalidLoginAttempt" duration-ms="6246" started-at="2023-06-01T19:26:03 CDT" finished-at="2023-06-01T19:26:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFacebookInvalidLoginAttempt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="tearDown" is-config="true" duration-ms="944" started-at="2023-06-01T19:26:10 CDT" finished-at="2023-06-01T19:26:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="setUp" is-config="true" duration-ms="2288" started-at="2023-06-01T19:26:10 CDT" finished-at="2023-06-01T19:26:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="setPage" is-config="true" duration-ms="1996" started-at="2023-06-01T19:26:13 CDT" finished-at="2023-06-01T19:26:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateFacebookLoginForm()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="validateFacebookLoginForm" duration-ms="968" started-at="2023-06-01T19:26:15 CDT" finished-at="2023-06-01T19:26:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFacebookLoginForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._05_FacebookTest@2b552920]" name="tearDown" is-config="true" duration-ms="861" started-at="2023-06-01T19:26:16 CDT" finished-at="2023-06-01T19:26:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._05_FacebookTest -->
+      <class name="scripts._12_TGAlertsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="2508" started-at="2023-06-01T19:28:41 CDT" finished-at="2023-06-01T19:28:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setPage" is-config="true" duration-ms="3020" started-at="2023-06-01T19:28:43 CDT" finished-at="2023-06-01T19:28:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="confirmationAlert()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="confirmationAlert" duration-ms="12429" started-at="2023-06-01T19:28:46 CDT" finished-at="2023-06-01T19:28:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="tearDown" is-config="true" duration-ms="764" started-at="2023-06-01T19:28:59 CDT" finished-at="2023-06-01T19:29:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="2535" started-at="2023-06-01T19:29:00 CDT" finished-at="2023-06-01T19:29:02 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setPage" is-config="true" duration-ms="2491" started-at="2023-06-01T19:29:02 CDT" finished-at="2023-06-01T19:29:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="promptAlertTest()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="promptAlertTest" duration-ms="416" started-at="2023-06-01T19:29:05 CDT" finished-at="2023-06-01T19:29:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlertTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="tearDown" is-config="true" duration-ms="825" started-at="2023-06-01T19:29:05 CDT" finished-at="2023-06-01T19:29:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="2940" started-at="2023-06-01T19:29:06 CDT" finished-at="2023-06-01T19:29:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="setPage" is-config="true" duration-ms="2674" started-at="2023-06-01T19:29:09 CDT" finished-at="2023-06-01T19:29:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="warningAlert()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="warningAlert" duration-ms="4234" started-at="2023-06-01T19:29:11 CDT" finished-at="2023-06-01T19:29:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- warningAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._12_TGAlertsTest@6ebc05a6]" name="tearDown" is-config="true" duration-ms="696" started-at="2023-06-01T19:29:16 CDT" finished-at="2023-06-01T19:29:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._12_TGAlertsTest -->
+      <class name="scripts._08_TGWaitsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="setUp" is-config="true" duration-ms="1459" started-at="2023-06-01T19:26:36 CDT" finished-at="2023-06-01T19:26:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="setPage" is-config="true" duration-ms="2506" started-at="2023-06-01T19:26:37 CDT" finished-at="2023-06-01T19:26:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateWaitBlueBox()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="validateWaitBlueBox" duration-ms="35209" started-at="2023-06-01T19:26:40 CDT" finished-at="2023-06-01T19:27:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWaitBlueBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="tearDown" is-config="true" duration-ms="629" started-at="2023-06-01T19:27:15 CDT" finished-at="2023-06-01T19:27:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="setUp" is-config="true" duration-ms="1212" started-at="2023-06-01T19:27:16 CDT" finished-at="2023-06-01T19:27:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="setPage" is-config="true" duration-ms="2570" started-at="2023-06-01T19:27:17 CDT" finished-at="2023-06-01T19:27:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateWaitRedBox()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="validateWaitRedBox" duration-ms="10088" started-at="2023-06-01T19:27:19 CDT" finished-at="2023-06-01T19:27:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWaitRedBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._08_TGWaitsTest@578486a3]" name="tearDown" is-config="true" duration-ms="633" started-at="2023-06-01T19:27:30 CDT" finished-at="2023-06-01T19:27:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._08_TGWaitsTest -->
+      <class name="scripts._13_IFrameTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="setUp" is-config="true" duration-ms="2783" started-at="2023-06-01T19:29:16 CDT" finished-at="2023-06-01T19:29:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="setPage" is-config="true" duration-ms="2040" started-at="2023-06-01T19:29:19 CDT" finished-at="2023-06-01T19:29:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="FAIL" signature="validateTheParagraph()[pri:1, instance:scripts._13_IFrameTest@6e6c3152]" name="validateTheParagraph" duration-ms="575" started-at="2023-06-01T19:29:21 CDT" description="TC123: Validate the IFrame Page content paragraph" finished-at="2023-06-01T19:29:22 CDT">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[no such frame
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63eca1299f8bee361154721a0e4a9f57]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63eca1299f8bee361154721a0e4a9f57
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:872)
+at scripts._13_IFrameTest.validateTheParagraph(_13_IFrameTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheParagraph -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="716" started-at="2023-06-01T19:29:22 CDT" finished-at="2023-06-01T19:29:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="setUp" is-config="true" duration-ms="1783" started-at="2023-06-01T19:29:23 CDT" finished-at="2023-06-01T19:29:24 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="setPage" is-config="true" duration-ms="1496" started-at="2023-06-01T19:29:24 CDT" finished-at="2023-06-01T19:29:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateTheFormSubmission()[pri:2, instance:scripts._13_IFrameTest@6e6c3152]" name="validateTheFormSubmission" duration-ms="881" started-at="2023-06-01T19:29:26 CDT" description="TC345 Validate the form submission" finished-at="2023-06-01T19:29:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheFormSubmission -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._13_IFrameTest@6e6c3152]" name="tearDown" is-config="true" duration-ms="702" started-at="2023-06-01T19:29:27 CDT" finished-at="2023-06-01T19:29:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._13_IFrameTest -->
+      <class name="scripts._02_AppleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._02_AppleTest@3701eaf6]" name="setUp" is-config="true" duration-ms="6611" started-at="2023-06-01T19:25:07 CDT" finished-at="2023-06-01T19:25:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateTitleAndURL()[pri:0, instance:scripts._02_AppleTest@3701eaf6]" name="validateTitleAndURL" duration-ms="54" started-at="2023-06-01T19:25:14 CDT" finished-at="2023-06-01T19:25:14 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.apple.com] but found [https://www.apple.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.apple.com] but found [https://www.apple.com/]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at scripts._02_AppleTest.validateTitleAndURL(_02_AppleTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._02_AppleTest@3701eaf6]" name="tearDown" is-config="true" duration-ms="4567" started-at="2023-06-01T19:25:14 CDT" finished-at="2023-06-01T19:25:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._02_AppleTest -->
+      <class name="scripts._11_TGDropdownTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setUp" is-config="true" duration-ms="1247" started-at="2023-06-01T19:27:44 CDT" finished-at="2023-06-01T19:27:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setPage" is-config="true" duration-ms="3032" started-at="2023-06-01T19:27:45 CDT" finished-at="2023-06-01T19:27:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="colorDropdownTest()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="colorDropdownTest" duration-ms="172" started-at="2023-06-01T19:27:48 CDT" finished-at="2023-06-01T19:27:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colorDropdownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="tearDown" is-config="true" duration-ms="668" started-at="2023-06-01T19:27:48 CDT" finished-at="2023-06-01T19:27:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setUp" is-config="true" duration-ms="1392" started-at="2023-06-01T19:27:49 CDT" finished-at="2023-06-01T19:27:50 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setPage" is-config="true" duration-ms="3283" started-at="2023-06-01T19:27:50 CDT" finished-at="2023-06-01T19:27:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="productDropdownTest()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="productDropdownTest" duration-ms="96" started-at="2023-06-01T19:27:53 CDT" finished-at="2023-06-01T19:27:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDropdownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="tearDown" is-config="true" duration-ms="646" started-at="2023-06-01T19:27:53 CDT" finished-at="2023-06-01T19:27:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setUp" is-config="true" duration-ms="1881" started-at="2023-06-01T19:27:54 CDT" finished-at="2023-06-01T19:27:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setPage" is-config="true" duration-ms="1763" started-at="2023-06-01T19:27:56 CDT" finished-at="2023-06-01T19:27:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="shipmentTypeTest()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="shipmentTypeTest" duration-ms="35124" started-at="2023-06-01T19:27:58 CDT" finished-at="2023-06-01T19:28:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipmentTypeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="tearDown" is-config="true" duration-ms="735" started-at="2023-06-01T19:28:33 CDT" finished-at="2023-06-01T19:28:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setUp" is-config="true" duration-ms="2472" started-at="2023-06-01T19:28:34 CDT" finished-at="2023-06-01T19:28:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="setPage" is-config="true" duration-ms="2837" started-at="2023-06-01T19:28:36 CDT" finished-at="2023-06-01T19:28:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateDropdownFunctionalityTest()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="validateDropdownFunctionalityTest" duration-ms="1179" started-at="2023-06-01T19:28:39 CDT" finished-at="2023-06-01T19:28:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropdownFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._11_TGDropdownTest@1dfe2924]" name="tearDown" is-config="true" duration-ms="819" started-at="2023-06-01T19:28:40 CDT" finished-at="2023-06-01T19:28:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._11_TGDropdownTest -->
+      <class name="scripts._09_TGCheckboxTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="setUp" is-config="true" duration-ms="1267" started-at="2023-06-01T19:27:30 CDT" finished-at="2023-06-01T19:27:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="setPage" is-config="true" duration-ms="1956" started-at="2023-06-01T19:27:31 CDT" finished-at="2023-06-01T19:27:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateAllCheckboxes()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="validateAllCheckboxes" duration-ms="482" started-at="2023-06-01T19:27:33 CDT" finished-at="2023-06-01T19:27:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllCheckboxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-06-01T19:27:34 CDT" finished-at="2023-06-01T19:27:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="setUp" is-config="true" duration-ms="1376" started-at="2023-06-01T19:27:35 CDT" finished-at="2023-06-01T19:27:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="setPage" is-config="true" duration-ms="1943" started-at="2023-06-01T19:27:36 CDT" finished-at="2023-06-01T19:27:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateOtherBoxes()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="validateOtherBoxes" duration-ms="389" started-at="2023-06-01T19:27:38 CDT" finished-at="2023-06-01T19:27:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOtherBoxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._09_TGCheckboxTest@551aa95a]" name="tearDown" is-config="true" duration-ms="692" started-at="2023-06-01T19:27:38 CDT" finished-at="2023-06-01T19:27:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._09_TGCheckboxTest -->
+      <class name="scripts._01_GoogleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="setup" is-config="true" duration-ms="14164" started-at="2023-06-01T19:23:59 CDT" finished-at="2023-06-01T19:24:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="validateNavigation" duration-ms="20280" started-at="2023-06-01T19:24:13 CDT" finished-at="2023-06-01T19:24:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="4003" started-at="2023-06-01T19:24:34 CDT" finished-at="2023-06-01T19:24:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="setup" is-config="true" duration-ms="4940" started-at="2023-06-01T19:24:38 CDT" finished-at="2023-06-01T19:24:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSearchButton()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="validateSearchButton" duration-ms="257" started-at="2023-06-01T19:24:42 CDT" finished-at="2023-06-01T19:24:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="4038" started-at="2023-06-01T19:24:43 CDT" finished-at="2023-06-01T19:24:47 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="setup" is-config="true" duration-ms="5847" started-at="2023-06-01T19:24:47 CDT" finished-at="2023-06-01T19:24:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitleAndURL()[pri:1, instance:scripts._01_GoogleTest@5c5a1b69]" name="validateTitleAndURL" duration-ms="52" started-at="2023-06-01T19:24:53 CDT" finished-at="2023-06-01T19:24:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="3919" started-at="2023-06-01T19:24:53 CDT" finished-at="2023-06-01T19:24:57 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="setup" is-config="true" duration-ms="6283" started-at="2023-06-01T19:24:57 CDT" finished-at="2023-06-01T19:25:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSearchBar()[pri:2, instance:scripts._01_GoogleTest@5c5a1b69]" name="validateSearchBar" duration-ms="110" started-at="2023-06-01T19:25:03 CDT" finished-at="2023-06-01T19:25:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._01_GoogleTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="4467" started-at="2023-06-01T19:25:03 CDT" finished-at="2023-06-01T19:25:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._01_GoogleTest -->
+      <class name="scripts._10_TGRadioButtonsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._10_TGRadioButtonsTest@35d176f7]" name="setUp" is-config="true" duration-ms="1348" started-at="2023-06-01T19:27:39 CDT" finished-at="2023-06-01T19:27:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts._10_TGRadioButtonsTest@35d176f7]" name="setPage" is-config="true" duration-ms="2075" started-at="2023-06-01T19:27:40 CDT" finished-at="2023-06-01T19:27:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateRadioButtons()[pri:0, instance:scripts._10_TGRadioButtonsTest@35d176f7]" name="validateRadioButtons" duration-ms="386" started-at="2023-06-01T19:27:42 CDT" finished-at="2023-06-01T19:27:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButtons -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._10_TGRadioButtonsTest@35d176f7]" name="tearDown" is-config="true" duration-ms="704" started-at="2023-06-01T19:27:43 CDT" finished-at="2023-06-01T19:27:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._10_TGRadioButtonsTest -->
+      <class name="scripts._07_TGDynamicTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setUp" is-config="true" duration-ms="1350" started-at="2023-06-01T19:26:22 CDT" finished-at="2023-06-01T19:26:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setURL()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setURL" is-config="true" duration-ms="1739" started-at="2023-06-01T19:26:23 CDT" finished-at="2023-06-01T19:26:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="validateBoxes()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="validateBoxes" duration-ms="133" started-at="2023-06-01T19:26:25 CDT" finished-at="2023-06-01T19:26:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBoxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="tearDown" is-config="true" duration-ms="724" started-at="2023-06-01T19:26:25 CDT" finished-at="2023-06-01T19:26:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setUp" is-config="true" duration-ms="1408" started-at="2023-06-01T19:26:26 CDT" finished-at="2023-06-01T19:26:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setURL()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setURL" is-config="true" duration-ms="2382" started-at="2023-06-01T19:26:27 CDT" finished-at="2023-06-01T19:26:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="validateDynamicElementBox1()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="validateDynamicElementBox1" duration-ms="74" started-at="2023-06-01T19:26:30 CDT" finished-at="2023-06-01T19:26:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDynamicElementBox1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="tearDown" is-config="true" duration-ms="665" started-at="2023-06-01T19:26:30 CDT" finished-at="2023-06-01T19:26:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setUp" is-config="true" duration-ms="1384" started-at="2023-06-01T19:26:31 CDT" finished-at="2023-06-01T19:26:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setURL()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="setURL" is-config="true" duration-ms="3291" started-at="2023-06-01T19:26:32 CDT" finished-at="2023-06-01T19:26:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="validateDynamicElementBox2()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="validateDynamicElementBox2" duration-ms="44" started-at="2023-06-01T19:26:35 CDT" finished-at="2023-06-01T19:26:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDynamicElementBox2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._07_TGDynamicTest@1f36e637]" name="tearDown" is-config="true" duration-ms="632" started-at="2023-06-01T19:26:35 CDT" finished-at="2023-06-01T19:26:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._07_TGDynamicTest -->
+      <class name="scripts._06_WikiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts._06_WikiTest@2758fe70]" name="setUp" is-config="true" duration-ms="2332" started-at="2023-06-01T19:26:17 CDT" finished-at="2023-06-01T19:26:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getURL()[pri:0, instance:scripts._06_WikiTest@2758fe70]" name="getURL" is-config="true" duration-ms="1356" started-at="2023-06-01T19:26:19 CDT" finished-at="2023-06-01T19:26:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="validateWikiSearch()[pri:0, instance:scripts._06_WikiTest@2758fe70]" name="validateWikiSearch" duration-ms="975" started-at="2023-06-01T19:26:20 CDT" finished-at="2023-06-01T19:26:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWikiSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts._06_WikiTest@2758fe70]" name="tearDown" is-config="true" duration-ms="784" started-at="2023-06-01T19:26:21 CDT" finished-at="2023-06-01T19:26:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._06_WikiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
