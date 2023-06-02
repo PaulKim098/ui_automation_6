@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _10_TGRadioButtonsTest extends Base{
+public class _10_TGRadioButtonsTest extends GlobalBase {
 
     /*
     TEST CASE 1

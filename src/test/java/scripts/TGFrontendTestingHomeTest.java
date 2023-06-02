@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TGFrontendTestingHomePage;
 
-public class TGFrontendTestingHomeTest extends Base{
+public class TGFrontendTestingHomeTest extends GlobalBase {
     @BeforeMethod
     public void setPage(){
         techGlobalFrontendTestingHomePage = new TGFrontendTestingHomePage();

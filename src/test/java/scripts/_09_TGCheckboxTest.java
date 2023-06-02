@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _09_TGCheckboxTest extends Base{
+public class _09_TGCheckboxTest extends GlobalBase {
 
     /*
     Go to https://techglobal-training.com/frontend/

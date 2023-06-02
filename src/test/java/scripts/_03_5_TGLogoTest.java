@@ -2,10 +2,9 @@ package scripts;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.TGBasePage;
 import utils.Waiter;
 
-public class _03_5_TGLogoTest extends Base {
+public class _03_5_TGLogoTest extends GlobalBase {
 
     @Test
     public void validateTechGlobalLogo(){

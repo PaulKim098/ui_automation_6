@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class _06_WikiTest extends Base{
+public class _06_WikiTest extends GlobalBase {
     /*
     Go to "https://www.wikipedia.org/"
     Search for "Tesla"

@@ -10,7 +10,7 @@ import utils.WindowHandler;
 
 import java.util.List;
 
-public class _14_MultipleWindows extends Base{
+public class _14_MultipleWindows extends GlobalBase {
 
     @BeforeMethod
     public void setPage(){

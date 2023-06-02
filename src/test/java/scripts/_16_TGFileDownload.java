@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class _16_TGFileDownload extends Base{
+public class _16_TGFileDownload extends GlobalBase {
 
     /**
      * TEST CASE

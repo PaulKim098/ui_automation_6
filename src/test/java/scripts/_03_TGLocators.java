@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _03_TGLocators extends Base {
+public class _03_TGLocators extends GlobalBase {
     /*
     Test case 1:
     Go to "https://techglobal-training.com/frontend/locators"

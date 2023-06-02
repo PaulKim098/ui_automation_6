@@ -5,9 +5,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.TGBasePage;
 import pages.TGFrontendTestingHomePage;
+import utils.ConfigReader;
 import utils.Driver;
 
-public class Base {
+public class GlobalBase {
 
     TGBasePage techGlobalBasePage;
     TGFrontendTestingHomePage techGlobalFrontendTestingHomePage;
@@ -16,6 +17,7 @@ public class Base {
     @BeforeMethod
     public void setUp(){
         driver = Driver.getDriver();
+        driver.get(ConfigReader.getProperty("appURL"));
         techGlobalBasePage = new TGBasePage();
     }
 

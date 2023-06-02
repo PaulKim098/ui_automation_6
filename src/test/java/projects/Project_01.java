@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import scripts.Base;
+import scripts.GlobalBase;
 
 import java.util.List;
 
-public class Project_01 extends Base {
+public class Project_01 extends GlobalBase {
 
     @BeforeMethod
     public void setPage(){

@@ -1,6 +1,5 @@
 package scripts;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 import utils.AlertHandler;
 import utils.Waiter;
 
-public class _12_TGAlertsTest extends Base{
+public class _12_TGAlertsTest extends GlobalBase {
 
     @BeforeMethod
     public void setPage(){

@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utils.Waiter;
 
-public class _08_TGWaitsTest extends Base{
+public class _08_TGWaitsTest extends GlobalBase {
 
     @BeforeMethod
     public void setPage(){

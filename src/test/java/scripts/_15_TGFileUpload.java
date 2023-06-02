@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class _15_TGFileUpload extends Base {
+public class _15_TGFileUpload extends GlobalBase {
 
     @BeforeMethod
     public void setPage(){

@@ -6,11 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
 
-public class _07_TGDynamicTest extends Base {
+public class _07_TGDynamicTest extends GlobalBase {
     /*
     Go to https://techglobal-training.com/frontend/
     Click on the "Dynamic Elements" card
