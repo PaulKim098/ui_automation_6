@@ -8,6 +8,8 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
 
+import static utils.ConfigReader.getProperty;
+
 public class Driver {
 
     private static WebDriver driver;
@@ -17,7 +19,7 @@ public class Driver {
     public static WebDriver getDriver(){
         if(driver == null){
             //This info should come from a global file where we put such important information
-            String browser = ConfigReader.getProperty("browser");
+            String browser = getProperty("browser");
 
             switch (browser.toLowerCase()){
                 case "chrome":
@@ -36,7 +38,7 @@ public class Driver {
                     throw new IllegalStateException(browser + " browser does not match any case!!!");
             }
             driver.manage().window().maximize(); // Maximizes the Chrome window
-            driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS); // implicit wait
+            driver.manage().timeouts().implicitlyWait(Integer.parseInt(getProperty("implicit_wait")), TimeUnit.SECONDS); // implicit wait
         }
         return driver;
 

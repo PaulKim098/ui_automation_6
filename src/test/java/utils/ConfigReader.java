@@ -1,14 +1,13 @@
 package utils;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 public class ConfigReader {
 
     private static Properties properties = new Properties();
 
-    static {
+    static { // This block executes ONLY once and before everything else!
         try {
             FileInputStream fileInputStream = new FileInputStream("config.properties");
             properties.load(fileInputStream);

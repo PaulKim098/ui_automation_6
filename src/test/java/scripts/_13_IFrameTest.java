@@ -52,7 +52,7 @@ public class _13_IFrameTest extends GlobalBase {
 
         firstNameInputBox.sendKeys("John");
         lastNameInputBox.sendKeys("Doe");
-        submitButton.click();
+        submitButton.submit();
 
         driver.switchTo().defaultContent();
         WebElement result = driver.findElement(By.id("result"));
