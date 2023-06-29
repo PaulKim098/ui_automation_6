@@ -9,6 +9,7 @@ import java.util.List;
 
 public class TGBasePage {
 
+    // Modify default constructor to introduce web elements to driver!
     public TGBasePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
