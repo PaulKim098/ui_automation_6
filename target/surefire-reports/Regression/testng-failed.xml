@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression]">
+  <test thread-count="5" verbose="0" name="All Functionalities(failed)">
+    <classes>
+      <class name="scripts._08_TGWaitsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setPage"/>
+          <include name="validateWaitBlueBox"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- scripts._08_TGWaitsTest -->
+      <class name="scripts._03_TGLocators">
+        <methods>
+          <include name="validateKiwiParagraph"/>
+          <include name="setPage"/>
+          <include name="tearDown"/>
+          <include name="validateRedAppleLink"/>
+          <include name="validateGrapesParagraph"/>
+          <include name="validateAllLinks"/>
+          <include name="validateOrangeParagraph"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- scripts._03_TGLocators -->
+      <class name="scripts.TGFrontendTestingHomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateFrontendTestingURL"/>
+          <include name="setPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- scripts.TGFrontendTestingHomeTest -->
+      <class name="scripts._14_MultipleWindows">
+        <methods>
+          <include name="validateAppleNavigation"/>
+          <include name="setPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- scripts._14_MultipleWindows -->
+      <class name="scripts._18_TGSortableTableTest">
+        <methods>
+          <include name="setPage"/>
+          <include name="tearDown"/>
+          <include name="validateSortAscByQuantity"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- scripts._18_TGSortableTableTest -->
+    </classes>
+  </test> <!-- All Functionalities(failed) -->
+</suite> <!-- Failed suite [Regression] -->

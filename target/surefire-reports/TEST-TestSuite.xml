@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="454.116" tests="57" errors="0" skipped="18" failures="5">
+  <properties>
+    <property name="idea.version" value="2022.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\STP\IdeaProjects\ui_automation_6"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\STP\IdeaProjects\ui_automation_6"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\STP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MongoDB\mongosh-1.9.1-win32-x64\bin;C:\Program Files\Java\jdk-11.0.19+7\bin;C:\Program Files\Amazon Corretto\jdk17.0.5_8\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\STP\apache-maven-3.9.2\bin;C:\Users\STP\AppData\Local\Microsoft\WindowsApps;C:\Users\STP\AppData\Local\GitHubDesktop\bin;C:\Users\STP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\STP\AppData\Local\atom\bin;C:\Users\STP\AppData\Local\Microsoft\WindowsApps;C:\Users\STP\AppData\Roaming\npm;C:\Users\STP\apache-maven-3.9.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\STP"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="STP"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2 test -PRegression"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="validateBoxes" classname="scripts._07_TGDynamicTest" time="0.148"/>
+  <testcase name="validateDynamicElementBox1" classname="scripts._07_TGDynamicTest" time="0.088"/>
+  <testcase name="validateDynamicElementBox2" classname="scripts._07_TGDynamicTest" time="0.082"/>
+  <testcase name="validateWaitBlueBox" classname="scripts._08_TGWaitsTest" time="30.143">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[class$=&apos;box&apos;]&quot;}&#10;  (Session info: chrome=114.0.5735.134)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;STP-R90Z23DY&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c676199b5d732c31479a3548d7e5bfde&#10;*** Element info: {Using=css selector, value=button[class$=&apos;box&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"button[class$='box']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c676199b5d732c31479a3548d7e5bfde
+*** Element info: {Using=css selector, value=button[class$='box']}
+	at scripts._08_TGWaitsTest.validateWaitBlueBox(_08_TGWaitsTest.java:42)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 43564
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2023 4:51:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateWaitRedBox" classname="scripts._08_TGWaitsTest" time="10.21"/>
+  <testcase name="validateAllCheckboxes" classname="scripts._09_TGCheckboxTest" time="0.483"/>
+  <testcase name="validateOtherBoxes" classname="scripts._09_TGCheckboxTest" time="0.437"/>
+  <testcase name="validateRadioButtons" classname="scripts._10_TGRadioButtonsTest" time="0.488"/>
+  <testcase name="colorDropdownTest" classname="scripts._11_TGDropdownsTest" time="2.487"/>
+  <testcase name="productDropdownTest" classname="scripts._11_TGDropdownsTest" time="2.157"/>
+  <testcase name="shipmentType" classname="scripts._11_TGDropdownsTest" time="2.175"/>
+  <testcase name="validateDropdowns" classname="scripts._11_TGDropdownsTest" time="2.656"/>
+  <testcase name="confirmationAlert" classname="scripts._12_TGAlertsTest" time="12.199"/>
+  <testcase name="promptAlertTest" classname="scripts._12_TGAlertsTest" time="0.354"/>
+  <testcase name="warningAlert" classname="scripts._12_TGAlertsTest" time="4.138"/>
+  <testcase name="validateTheParagraph" classname="scripts._13_IFrameTest" time="0.344"/>
+  <testcase name="validateFrontendTestingURL" classname="scripts.TGFrontendTestingHomeTest" time="30.31">
+    <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at scripts.TGFrontendTestingHomeTest.validateFrontendTestingURL(TGFrontendTestingHomeTest.java:54)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12801
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2023 4:53:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateNavigation" classname="scripts._01_GoogleTest" time="17.553"/>
+  <testcase name="validateSearchButton" classname="scripts._01_GoogleTest" time="0.152"/>
+  <testcase name="validateTitleAndURL" classname="scripts._01_GoogleTest" time="0.042"/>
+  <testcase name="validateTitleAndURL" classname="scripts._02_AppleTest" time="0.783"/>
+  <testcase name="validateTechGlobalLogo" classname="scripts._03_5_TGLogoTest" time="0.197"/>
+  <testcase name="setPage" classname="scripts._03_TGLocators" time="4.815">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at scripts._03_TGLocators.setPage(_03_TGLocators.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40328
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2023 4:55:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setPage" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateKiwiParagraph" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateOrangeParagraph" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheFormSubmission" classname="scripts._13_IFrameTest" time="0.535"/>
+  <testcase name="validateAppleNavigation" classname="scripts._14_MultipleWindows" time="30.289">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.globalnav-link-apple&quot;}&#10;  (Session info: chrome=114.0.5735.134)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;STP-R90Z23DY&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e3111564edee808696f9675bf22ee7e0&#10;*** Element info: {Using=css selector, value=.globalnav-link-apple}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".globalnav-link-apple"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3111564edee808696f9675bf22ee7e0
+*** Element info: {Using=css selector, value=.globalnav-link-apple}
+	at scripts._14_MultipleWindows.validateAppleNavigation(_14_MultipleWindows.java:46)
+</failure>
+    <system-out><![CDATA[----Print all the window handles----
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 8255
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2023 4:55:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateMicrosoftNavigation" classname="scripts._14_MultipleWindows" time="2.63"/>
+  <testcase name="validateGrapesParagraph" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateTheTeslaNavigation" classname="scripts._14_MultipleWindows" time="3.606"/>
+  <testcase name="validateTheLinkURLs" classname="scripts._14_MultipleWindows" time="21.098"/>
+  <testcase name="basicFileUpload" classname="scripts._15_TGFileUpload" time="0.211"/>
+  <testcase name="validateFileDownload" classname="scripts._16_TGFileDownload" time="0.094"/>
+  <testcase name="validateEachCell" classname="scripts._17_TGStaticTableTest" time="0.449"/>
+  <testcase name="validateFirstRow" classname="scripts._17_TGStaticTableTest" time="0.095"/>
+  <testcase name="validateLastColumn" classname="scripts._17_TGStaticTableTest" time="0.092"/>
+  <testcase name="validateTableHeader" classname="scripts._17_TGStaticTableTest" time="0.096"/>
+  <testcase name="validateSortAscByQuantity" classname="scripts._18_TGSortableTableTest" time="30.025">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#quantity_asc&quot;}&#10;  (Session info: chrome=114.0.5735.134)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;STP-R90Z23DY&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 15a3a90023818fdbd9eda224ba59a715&#10;*** Element info: {Using=id, value=quantity_asc}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#quantity_asc"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STP-R90Z23DY', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\STP\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15a3a90023818fdbd9eda224ba59a715
+*** Element info: {Using=id, value=quantity_asc}
+	at scripts._18_TGSortableTableTest.validateSortAscByQuantity(_18_TGSortableTableTest.java:30)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 21, 2023 4:57:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateRedAppleLink" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateAllLinks" classname="scripts._03_TGLocators" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateLanguages" classname="scripts._04_TGLocators2" time="0.317"/>
+  <testcase name="validateListHeaders" classname="scripts._04_TGLocators2" time="0.129"/>
+  <testcase name="validateTools" classname="scripts._04_TGLocators2" time="0.215"/>
+  <testcase name="validateFacebookInvalidLoginAttempt" classname="scripts._05_FacebookTest" time="5.724"/>
+</testsuite>
